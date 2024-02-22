@@ -27,7 +27,6 @@ public class PelangganController {
 
     @PostMapping
     public Pelanggan simpanPelanggan(@RequestBody Pelanggan pelanggan) {
-        System.out.println(pelanggan);
         return  pelangganService.simpanPelanggan(pelanggan);
     }
 

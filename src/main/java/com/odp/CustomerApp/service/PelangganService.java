@@ -24,7 +24,6 @@ public class PelangganService {
     }
 
     public Pelanggan simpanPelanggan(Pelanggan pelanggan) {
-        System.out.println("hao" + pelanggan);
         return pelangganRepository.save(pelanggan);
     }
 
